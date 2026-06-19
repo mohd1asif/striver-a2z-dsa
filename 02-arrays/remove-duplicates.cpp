@@ -1,6 +1,15 @@
+/*
+ * Problem: Remove Duplicates (Sorted Array)
+ * Approach: Two-Pointer (In-place)
+ * - Pointer 'i' tracks the end of the unique section.
+ * - Pointer 'j' scans forward to find the next new number.
+ * - When arr[j] != arr[i], we've found a new number: increment 'i' and copy arr[j] to arr[i].
+ * - Return i + 1 (the count of unique elements).
+ * Time Complexity: O(N) | Space Complexity: O(1)
+ */
+
 #include<iostream>
 #include<vector>
-#include<set>
 using namespace std;
 
 int removeDuplicates(vector <int> &arr){
