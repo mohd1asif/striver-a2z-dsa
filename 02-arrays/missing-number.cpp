@@ -4,8 +4,8 @@
  * We calculate what the sum of the array should be using the formula n * (n + 1) / 2.
  * Then, we add up the actual numbers that are currently in the array.
  * The missing number is simply the difference of Expected Sum(sum1) and Actual Sum(sum2).
- * Time Complexity: O(N) - We only loop through the array once to find the actual sum.
- * Space Complexity: O(1) - No extra arrays created!
+ * Time Complexity: O(N)
+ * Space Complexity: O(1)
  */
 
 #include<iostream>
