@@ -5,7 +5,8 @@
  * - Pointer 'j' scans forward to find the next new number.
  * - When arr[j] != arr[i], we've found a new number: increment 'i' and copy arr[j] to arr[i].
  * - Return i + 1 (the count of unique elements).
- * Time Complexity: O(N) | Space Complexity: O(1)
+ * Time Complexity: O(N) 
+ * Space Complexity: O(1)
  */
 
 #include<iostream>
