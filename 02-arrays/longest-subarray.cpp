@@ -1,8 +1,8 @@
 /*
  * Problem: Longest Subarray with sum K (Positives, Negatives, and Zeros)
  * Approach: Prefix Sum + Hash Map. Keep a running sum. If (current_sum - target) exists in map, the subarray between that old index and current index adds up to target.
- * Time Complexity: O(N) since array is iterated once
- * Space Complexity: O(N) to store prefix sums in the map
+ * Time Complexity: O(N) since array is iterated once.
+ * Space Complexity: O(N) to store prefix sums in the map.
  */
 
 #include <iostream>
