@@ -1,5 +1,5 @@
 /*
- * Problem: Sort 0s, 1s, and 2s (Sort Colors)
+ * Problem: Sort 0s, 1s, and 2s 
  * Approach: Uses the Dutch National Flag algorithm. 
  * It uses three pointers (low, mid, high) to swap elements: 
  * 0s are pushed to the front, 2s to the back, and 1s are left in the middle.
