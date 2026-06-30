@@ -28,12 +28,12 @@ int majorityElement(vector<int> &arr){
             cnt--;
         }
     }
-        int cnt1 = 0;
-        for(int i=0; i<n; i++){
-            if(arr[i] == el){
-                cnt1++;
-            }
+    int cnt1 = 0;
+    for(int i=0; i<n; i++){
+        if(arr[i] == el){
+            cnt1++;
         }
+    }
         
     if(cnt1 > n/2) return el;
     return -1;
