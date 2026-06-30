@@ -21,7 +21,6 @@ void moveZeroes(vector <int> &arr){
             i++;
         }
     }
-    i+1;
 }
 
 int main(){
