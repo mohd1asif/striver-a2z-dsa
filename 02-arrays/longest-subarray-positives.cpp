@@ -11,7 +11,7 @@
 using namespace std;
 
 int longestSubarray(vector<int> arr, int k){
-    int n = arr.size(), len=0;
+    int n = arr.size();
     int left=0, right=0;
     int sum=arr[0];
     int maxlen=0;
